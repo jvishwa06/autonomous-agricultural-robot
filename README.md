@@ -42,6 +42,8 @@ The ABU Asia-Pacific Robot Contest (ABU Robocon) is an annual college-level robo
 - **Team Member 5:** Ranjith - ROS Engineer
 - **Team Member 6:** Sanjay - ROS Engineer
 - **Team Member 7:** Sharan - AI Developer
+- **Team Member 8:** Prem Kumar - AI Developer
+
 
 
 ## Contact Us
