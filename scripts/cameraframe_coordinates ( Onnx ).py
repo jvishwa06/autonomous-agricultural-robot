@@ -31,17 +31,13 @@ def run_yolo():
     align_to = rs.stream.color
     align = rs.align(align_to)
 
-    # Load the ONNX model
     model = CustomYOLO(r"Final-model.onnx", task='detect')
 
-    # Load the class names from the JSON file
     with open('class_names.json', 'r') as f:
         class_names = json.load(f)
 
-    # Set the class names to the model
     model.set_class_names(class_names)
 
-    # Verify the class names
     print("Class names:", model.names)
 
     min_z_coordinate = None
