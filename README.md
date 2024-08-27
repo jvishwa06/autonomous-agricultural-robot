@@ -53,9 +53,9 @@ This autonomous agriculture robot was developed to automate the process of paddy
 
 ## Performance Metrics
 
-- **Accuracy:** The trained model achieved an accuracy of X% on the validation dataset.
-- **Latency:** The inference time on Jetson Orin Nano was reduced to Y ms after quantization.
-- **Navigation Precision:** The robot successfully navigated and harvested paddy with a precision of Z%.
+- **Accuracy:** The trained model achieved an accuracy of 95% on the validation dataset.
+- **Latency:** The inference time on Jetson Orin Nano was reduced to  15 ms after quantization.
+- **Navigation Precision:** The robot successfully navigated and harvested paddy with a precision of 80%.
 
 ## Contributing
 
