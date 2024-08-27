@@ -69,7 +69,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Special thanks to the ROS community for providing extensive documentation and support.
 - Acknowledgment to the creators of YOLOv8 for their contribution to the field of computer vision.
-
----
-
-This README template can be customized further to fit the exact details of your project. Make sure to update the performance metrics, links, and any other placeholders with real data from your project.
