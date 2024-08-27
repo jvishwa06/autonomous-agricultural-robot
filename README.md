@@ -1,7 +1,3 @@
-To create a README file for your project, here's a template you can follow. I'll structure it based on the details you've shared about your project.
-
----
-
 # Autonomous Agriculture Robot
 
 This project focuses on the development of an autonomous agriculture robot designed to efficiently detect, pick, and transport paddy to a storage zone. Leveraging AI, ROS, and state-of-the-art hardware, the robot is optimized for real-world agricultural applications.
