@@ -1,61 +1,79 @@
-# ABU Asia-Pacific Robot Contest 2024 - Quảng Ninh, Vietnam
-
-Welcome to the official repository for our participation in the ABU Asia-Pacific Robot Contest 2024!
-
-## About ABU Robocon
-
-The ABU Asia-Pacific Robot Contest (ABU Robocon) is an annual college-level robot competition founded by the Asia-Pacific Broadcasting Union (ABU) in 2002. It aims to foster friendship among young people with shared interests in robotics, promote technological advancements in engineering and broadcasting, and showcase creative solutions to challenges.
-
-### Contest Details
-
-- **Organizer:** ABU (Asia-Pacific Broadcasting Union), NHK, NHK ENTERPRISES, INC
-- **Host:** ABU Asia-Pacific Robot Contest 2024 Host Organizing Committee (Vietnam Television, VTV)
-- **Date:** Sunday, 25 August 2024
-- **Venue:** Dai Yen Multi-Purpose Gymnasium, Quảng Ninh, Vietnam
-- **Theme:** Harvest Day
-- **Awards:** ABU Robocon Award, Grand Prix, 1st Runner-up, 2nd Runner-up, Best Idea Award, Best Engineering Award, Best Design Award, Special Awards
-
-## Repository Contents
-
-### Documentation
-
-- **Contest Rules:** Detailed rules and regulations specific to ABU Robocon 2024.
-- **Team Information:** Introduction to our team members and their roles.
-- **Technical Specifications:** Hardware and software details for our robot.
-
-### Resources
-
-- **Design Files:** CAD designs, schematics, and diagrams related to our robot.
-- **Code Repository:** Repository for our robot's AI development and programming.
-- **Research Papers:** Relevant papers or documentation used in our robot's development.
-
-### Updates and Progress
-
-- Regular updates on our progress, challenges, and achievements as we prepare for the competition.
-
-## AI & ROS Team Members
-
-- **Team Member 1:** Sudharsan - AI Developer
-- **Team Member 2:** Charan - AI Developer
-- **Team Member 3:** Vishwa J - AI Developer
-- **Team Member 4:** Harini - Computer Vision Engineer
-- **Team Member 5:** Ranjith - ROS Engineer
-- **Team Member 6:** Sanjay - ROS Engineer
-- **Team Member 7:** Sharan - AI Developer
-- **Team Member 8:** Prem Kumar - AI Developer
-
-
-
-## Contact Us
-
-For any inquiries or more information about our participation in ABU Robocon 2024, please contact:
-
-**Team Member:** Vishwa J - jvishu06@gmail.com
-
-## Acknowledgements
-
-- We extend our gratitude to our sponsors and supporters for their generous contributions and support.
+To create a README file for your project, here's a template you can follow. I'll structure it based on the details you've shared about your project.
 
 ---
 
-Feel free to clone this repository, contribute, or provide feedback. Let's strive for success at ABU Robocon 2024!
+# Autonomous Agriculture Robot
+
+This project focuses on the development of an autonomous agriculture robot designed to efficiently detect, pick, and transport paddy to a storage zone. Leveraging AI, ROS, and state-of-the-art hardware, the robot is optimized for real-world agricultural applications.
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Features](#features)
+- [Hardware Used](#hardware-used)
+- [Software Requirements](#software-requirements)
+- [Model Training and Optimization](#model-training-and-optimization)
+- [Performance Metrics](#performance-metrics)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgements](#acknowledgements)
+
+## Project Overview
+
+This autonomous agriculture robot was developed to automate the process of paddy harvesting. It uses advanced AI and ROS capabilities for precise paddy detection, picking, and transportation. The robot is equipped with a trained and quantized object detection model deployed on a Jetson Orin Nano and utilizes an Intel RealSense depth camera for point cloud generation and navigation.
+
+## Features
+
+- **AI-driven Paddy Detection:** Trained object detection model optimized for real-time paddy identification.
+- **Efficient Harvesting:** The robot autonomously detects, picks, and transports paddy to the storage zone.
+- **Camera Calibration:** Accurate camera calibration for accurate depth values.
+- **Depth Sensing:** Utilization of Intel RealSense depth camera for obtaining point clouds and enhanced object detection.
+- **Optimized Performance:** Deployment of the quantized model on Jetson Orin Nano for high efficiency.
+
+## Hardware Used
+
+- **Jetson Orin Nano:** Used for deploying the AI model and controlling the robot.
+- **Intel RealSense Depth Camera:** Employed for capturing depth data and generating point clouds.
+- **Autonomous Navigation System:** For guiding the robot through the field.
+
+## Software Requirements
+
+- **Ubuntu 20.04 LTS**
+- **ROS Noetic**
+- **Python 3.8+**
+- **PyTorch**
+- **Intel RealSense SDK**
+- **CUDA (for Jetson Orin Nano)**
+- **OpenCV**
+- **YOLOv8**
+
+
+
+## Model Training and Optimization
+
+- **Training:** The object detection model was trained using YOLOv8 on a dataset of paddy images.
+- **Quantization:** Post-training, the model was quantized to FP16 for optimized deployment on Jetson Orin Nano.
+- **Calibration:** Camera calibration was performed to ensure accurate depth measurement and navigation.
+
+## Performance Metrics
+
+- **Accuracy:** The trained model achieved an accuracy of X% on the validation dataset.
+- **Latency:** The inference time on Jetson Orin Nano was reduced to Y ms after quantization.
+- **Navigation Precision:** The robot successfully navigated and harvested paddy with a precision of Z%.
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request with your changes. For major changes, please open an issue to discuss what you would like to change.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+- Special thanks to the ROS community for providing extensive documentation and support.
+- Acknowledgment to the creators of YOLOv8 for their contribution to the field of computer vision.
+
+---
+
+This README template can be customized further to fit the exact details of your project. Make sure to update the performance metrics, links, and any other placeholders with real data from your project.
